@@ -1,0 +1,10 @@
+$(function(){
+    $.ajax({
+        url:"http://localhost:8090/user/show",
+        data:{name:"xxx"},
+        type:"post",
+        success:function(data){
+            console.log(data)
+        }
+    })
+})
